@@ -1,111 +1,65 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
-    "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
-    "url": "https://midu.dev",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "name": "Diego Letelier Salbach",
+    "label": "Full Stack Developer, con 1 año de experiencia y estudiante de Ingenieria Civil Industrial, cursando 4 año de carrera.",
+    "image": "/profile-pic.jpeg",
+    "email": "diegoleteliers10@gmail.com",
+    "phone": "+56 978181654",
+    "url": "https://dldev.vercel.app/",
+    "summary": "Ingeniero y Desarrollador con background en la Universidad del Desarrollo y Henry Bootcamp donde se me hizo posible aprender diferentes lenguajes de programación, trabajar en equipo, manejar una base de datos, optimizar y organizar tiempos de trabajo, y a mejorar la eficiencia en proyectos y tareas especializadas. Conocimientos en GIT, estructura de datos, algoritmos, frameworks CSS, librerías, API's , base de datos y lenguajes de programación, tales com JavaScript, Python y TypeScript. Tengo experiencia en desarrollo de Front End y Back End con React, Vite, Node, PostgresSQL, Express, HTML, CSS y JS. Con adaptabilidad a diferentes cargos y tecnologías, innovación, flexibilidad, positividad, curiosidad por aprender cosas nuevas y trabajo en equipo. Con un nivel de Inglés: C1 (avanzado) según el British Council.",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
-      "countryCode": "ES",
-      "region": "España"
+      "postalCode": "7500000",
+      "city": "Santiago",
+      "countryCode": "CL",
+      "region": "Chile"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
+        "username": "diegoleteliers10",
+        "url": "https://www.linkedin.com/in/diegoleteliers10/"
       },
-      {
-      "network": "X",
-      "username": "midudev",
-      "url": "https://x.com/midudev"
-    },
     {
       "network": "GitHub",
-      "username": "midudev",
-      "url": "https://github.com/midudev"
+      "username": "diegoleteliers10",
+      "url": "https://github.com/diegoleteliers10"
     }
   ]
   },
-  "work": [{
-    "name": "midudev",
-    "position": "Divulgador sobre Programación Web",
-    "url": "https://twitch.tv/midudev",
-    "startDate": "2021-01-01",
+  "work": [
+    {
+    "name": "PizzaHut",
+    "position": "Pizzero y Cajero",
+    "url": "https://pizzahut.cl",
+    "startDate": "2022-07-07",
+    "endDate": "2022-12-07",
+    "summary": "Encargado de preparar y cocinar pizzas junto al equipo de pizzeros. Preocuparse de las ventas del local y distribución de la comida, junto con el manejo de caja. Ayudar a mantener orden y limpieza del lugar junto a la mejora de la eficiencia de los pedidos y del servicio al cliente.",
+    "highlights": [
+      "Empleado del Mes"
+    ]}
+  ],
+  "education": [
+    {
+    "institution": "Universidad del Desarrollo",
+    "url": "https://www.udd.cl",
+    "area": "Ingeniero Civil Industrial",
+    "studyType": "Pregrado",
+    "startDate": "2019-03-4",
     "endDate": null,
-    "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
-    "highlights": [
-      "Started the company"
-    ]
-  },
-  {
-    "name": "Adevinta",
-    "position": "Lead Frontend Architect",
-    "url": "https://twitch.tv/midudev",
-    "startDate": "2016-06-01",
-    "endDate": "2022-09-01",
-    "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-    "highlights": [
-      "Started the company"
-    ]
-  },
-  {
-    "name": "Hubii",
-    "position": "Senior FrontEnd Developer",
-    "startDate": "2011-03-01",
-    "endDate": "2016-05-01",
-    "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-    "highlights": [
-      "Started the company"
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
     "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
+    "summary":"Actualmente cursando la carrera de Ingenieria Industrial, donde he ampliado mis conocimientos acerca del area IT, comercial e ingeniero. Desarrollando diversas habilidades y llevando mis conocimientos a lo mas alto en la Universidad, para transformarme en un gran profesional."
+  },
+  {
+    "institution": "Henry Bootcamp",
+    "url": "https://www.soyhenry.com",
+    "area": "Full Stack Developer",
+    "studyType": null,
+    "startDate": "2023-03-7",
+    "endDate": "2023-07-16",
+    "summary":"Estudiante de Henry Bootcamp. Con mas de 700-800 horas de cursado teórico-práctico, donde se llevaron a cabo proyectos y tareas relacionadas a los distintos lenguajes de programacion aprendidos."
+  }
+  ],
   "skills": [
       {
         "name": "HTML",
@@ -164,7 +118,7 @@
         ]
       },
       {
-        "name": "GitHub",
+        "name": "Python",
         "level": "Avanzado",
         "keywords": [
           "Control de Versiones", "Colaboración", "Código Fuente", "Git"
@@ -178,30 +132,26 @@
         ]
       },
       {
-        "name": "React",
+        "name": "React-Native",
         "level": "Avanzado",
         "keywords": [
           "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
         ]
-      }
+      },
+      {
+        "name": "R",
+        "level": "Avanzado",
+        "keywords": [
+          "Manejo de datos", "Machine Learning", "Probabilities and statistics"
+        ]
+      }    
     ],
   "languages": [{
     "language": "Spanish",
     "fluency": "Native speaker"
   }, {
     "language": "English",
-    "fluency": "Advanced"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
+    "fluency": "C1-Advanced"
   }],
   "projects": [
     {
@@ -213,52 +163,16 @@
       "En desarrollo"
     ],
     "url": "https://mars.codes"
-  }, {
-    "name": "AdventJS",
-    "isActive": true,
-    "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-    "highlights": [
-      "+1 millón de visitas",
-      "Multidioma",
-      "JavaScript & TypeScript"
-    ],
-    "url": "https://adventjs.dev"
-  }, {
-    "name": "Codember",
-    "isActive": true,
-    "description": "Juego interactivo de programación con retos y secretos",
-    "highlights": [
-      "+2000 usuarios activos",
-      "Retos para cualquier lenguaje"
-    ],
-    "url": "https://codember.dev"
-  }, {
-    "name": "codi.link",
-    "isActive": true,
-    "description": "Playground de código HTML, CSS y JavaScript para compartir",
-    "highlights": [
-      "100k visitas al mes",
-      "Desarrollado por la comunidad"
-    ],
-    "url": "https://codi.link",
-    "github": "https://github.com/midudev/codi.link"
-  }, {
-    "name": "Pruebas Técnicas",
-    "isActive": true,
-    "description": "Lista de pruebas técnicas de empresas para practicar programación",
-    "highlights": [
-      "100% gratuito",
-      "+500 soluciones de la comunidad"
-    ],
-    "url": "https://pruebastecnicas.com",
-    "github": "https://github.com/midudev/codi.link"
-  }, {
-    "name": "miduConf",
-    "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-    "highlights": [
-      "+15k tickets repartidos",
-      "+50k espectadores en directo"
-    ],
-    "url": "https://miduconf.com"
-  }]
+    }, {
+      "name": "AdventJS",
+      "isActive": true,
+      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "highlights": [
+        "+1 millón de visitas",
+        "Multidioma",
+        "JavaScript & TypeScript"
+      ],
+      "url": "https://adventjs.dev"
+    }
+  ]
 }

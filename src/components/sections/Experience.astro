@@ -29,6 +29,12 @@ import { work } from "@cv"
                 <footer>
                   <p>{summary}</p>
                 </footer>
+
+                <div class="highlight">
+                  {highlights.map((highlight) => {
+                    return <span>{highlight}</span>
+                  })}
+                </div>
               </article>
             </li>
           )
@@ -65,5 +71,22 @@ import { work } from "@cv"
   time {
     color: #555;
     font-size: 0.85rem;
+  }
+
+  .highlight {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    font-size: 0.6rem;
+    margin-top: 10px;
+  }
+
+  .highlight span {
+    border-radius: 6px;
+    background: #eee;
+    color: #444;
+    font-size: 0.6rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
   }
 </style>
