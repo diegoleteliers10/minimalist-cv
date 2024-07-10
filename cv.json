@@ -1,12 +1,18 @@
 {
   "basics": {
     "name": "Diego Letelier Salbach",
-    "label": "Full Stack Developer, con 1 año de experiencia y estudiante de Ingenieria Civil Industrial, cursando 4 año de carrera.",
-    "image": "/profile-pic.jpeg",
+    "label": {
+      "es":"Estudiante de Ingenieria Civil Industrial, cursando 4 año de carrera y Developer, con 1 año de experiencia.",
+      "en": "Student of Industrial Civil Engineering, studying 4 years of career and Developer, with 1 year of experience."
+    },
+    "image": "/profile.jpeg",
     "email": "diegoleteliers10@gmail.com",
     "phone": "+56 978181654",
     "url": "https://dldev.vercel.app/",
-    "summary": "Ingeniero y Desarrollador con background en la Universidad del Desarrollo y Henry Bootcamp donde se me hizo posible aprender diferentes lenguajes de programación, trabajar en equipo, manejar una base de datos, optimizar y organizar tiempos de trabajo, y a mejorar la eficiencia en proyectos y tareas especializadas. Conocimientos en GIT, estructura de datos, algoritmos, frameworks CSS, librerías, API's , base de datos y lenguajes de programación, tales com JavaScript, Python y TypeScript. Tengo experiencia en desarrollo de Front End y Back End con React, Vite, Node, PostgresSQL, Express, HTML, CSS y JS. Con adaptabilidad a diferentes cargos y tecnologías, innovación, flexibilidad, positividad, curiosidad por aprender cosas nuevas y trabajo en equipo. Con un nivel de Inglés: C1 (avanzado) según el British Council.",
+    "summary": {
+      "es":"Soy estudiante de Ingeniería Civil Industrial en la Universidad del Desarrollo, con 24 años y desarrollador certificado por Henry Bootcamp. Tengo experiencia en una variedad de lenguajes de programación, incluyendo JavaScript, Python, TypeScript y R. Además, poseo conocimientos sólidos en gestión de bases de datos utilizando tecnologías como MySQL, SQLite, PostgreSQL y MongoDB. También tengo formación en ciencia de datos, abarcando áreas como la limpieza y análisis de datos. Priorizo la optimización de tiempos y la mejora de la eficiencia en los proyectos, aplicando principios de ingeniería y desarrollo de software.",
+      "en":"I am an Industrial Engineering student at Universidad del Desarrollo with 24 years old and a Henry Bootcamp certified developer. I have experience in a variety of programming languages, including JavaScript, Python, TypeScript and R. In addition, I have solid knowledge in database management using technologies such as MySQL, SQLite, PostgreSQL and MongoDB. I also have a background in data science, covering areas such as data cleansing and data analysis. I prioritize time optimization and efficiency improvement in projects, applying software engineering and development principles."
+    },
     "location": {
       "address": "",
       "postalCode": "7500000",
@@ -30,14 +36,21 @@
   "work": [
     {
     "name": "PizzaHut",
-    "position": "Pizzero y Cajero",
+    "position": {
+      "es":"Pizzero y Cajero",
+      "en":"Chef and "
+    },
     "url": "https://pizzahut.cl",
     "startDate": "2022-07-07",
     "endDate": "2022-12-07",
-    "summary": "Encargado de preparar y cocinar pizzas junto al equipo de pizzeros. Preocuparse de las ventas del local y distribución de la comida, junto con el manejo de caja. Ayudar a mantener orden y limpieza del lugar junto a la mejora de la eficiencia de los pedidos y del servicio al cliente.",
-    "highlights": [
-      "Empleado del Mes"
-    ]}
+    "summary": {
+      "es":"Encargado de preparar y cocinar pizzas junto al equipo de pizzeros. Preocuparse de las ventas del local y distribución de la comida, junto con el manejo de caja. Ayudar a mantener orden y limpieza del lugar junto a la mejora de la eficiencia de los pedidos y del servicio al cliente.",
+      "en":"In charge of preparing and cooking pizzas with the team. Caring about the sells and the distribution of the food, also managing the cash flow. Helping to mantein order and cleaning of the place, also upgrading eficiency of the deliveries and the customer service."
+    },
+    "highlights": {
+      "es":"Empleado del Mes",
+      "en":"Employee of the Month"
+    }}
   ],
   "education": [
     {
@@ -48,7 +61,10 @@
     "startDate": "2019-03-4",
     "endDate": null,
     "score": "4.0",
-    "summary":"Actualmente cursando la carrera de Ingenieria Industrial, donde he ampliado mis conocimientos acerca del area IT, comercial e ingeniero. Desarrollando diversas habilidades y llevando mis conocimientos a lo mas alto en la Universidad, para transformarme en un gran profesional."
+    "summary":{
+      "es":"Actualmente cursando la carrera de Ingenieria Industrial, donde he ampliado mis conocimientos acerca del area IT, comercial e ingeniero. Desarrollando diversas habilidades y llevando mis conocimientos a lo mas alto en la Universidad, para transformarme en un gran profesional.",
+      "en":"Currently studying Industrial Engineering, where I have expanded my knowledge about the IT, commercial and engineering area. Developing diverse skills and taking my knowledge to the highest in the University, to become a great professional."
+    }
   },
   {
     "institution": "Henry Bootcamp",
@@ -57,7 +73,10 @@
     "studyType": null,
     "startDate": "2023-03-7",
     "endDate": "2023-07-16",
-    "summary":"Estudiante de Henry Bootcamp. Con mas de 700-800 horas de cursado teórico-práctico, donde se llevaron a cabo proyectos y tareas relacionadas a los distintos lenguajes de programacion aprendidos."
+    "summary":{
+      "es":"Estudiante de Henry Bootcamp. Con mas de 700-800 horas de cursado teórico-práctico, donde se llevaron a cabo proyectos y tareas relacionadas a los distintos lenguajes de programacion aprendidos.",
+      "en":"Henry Bootcamp student. With more than 700-800 hours of theoretical and practical courses, where projects and tasks related to the different programming languages learned were carried out."
+    }
   }
   ],
   "skills": [
@@ -65,114 +84,115 @@
         "name": "HTML",
         "level": "Master",
         "keywords": [
-          "Desarrollo Web", "Frontend"
+          "Web Development", "Frontend"
         ]
       },
       {
         "name": "CSS",
         "level": "Master",
         "keywords": [
-          "Desarrollo Web", "Frontend", "Diseño Responsive"
+          "Web Development", "Frontend", "Responsive Design"
         ]
       },
       {
         "name": "JavaScript",
         "level": "Master",
         "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+          "Web Development", "Frontend", "Backend", "Fullstack"
         ]
       },
       {
         "name": "Tailwind",
         "level": "Avanzado",
         "keywords": [
-          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+          "Web Development", "Frontend", "CSS Framework", "Responsive Design"
         ]
       },
       {
         "name": "TypeScript",
         "level": "Avanzado",
         "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+          "Web Development", "Frontend", "Backend", "JavaScript Superset"
         ]
       },
       {
         "name": "Node",
         "level": "Avanzado",
         "keywords": [
-          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+          "Web Development", "Backend", "JavaScript", "Server"
         ]
       },
       {
         "name": "MySQL",
         "level": "Avanzado",
         "keywords": [
-          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+          "Databases", "SQL", "Data Warehousing", "Backend"
         ]
       },
       {
         "name": "Git",
         "level": "Avanzado",
         "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente"
+          "Version Control", "Colaboration", "Source code"
         ]
       },
       {
         "name": "Python",
         "level": "Avanzado",
         "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+          "Version Control", "Colaboration", "Source code", "Git"
         ]
       },
       {
         "name": "Next.js",
         "level": "Avanzado",
         "keywords": [
-          "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+          "Web Development", "Frontend", "React Framework", "SSR", "Static Generation"
         ]
       },
       {
         "name": "React-Native",
         "level": "Avanzado",
         "keywords": [
-          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+          "Web Development", "Frontend", "JavaScript Library", "UI"
         ]
       },
       {
         "name": "R",
         "level": "Avanzado",
         "keywords": [
-          "Manejo de datos", "Machine Learning", "Probabilities and statistics"
+          "Data management", "Machine Learning", "Probabilities and statistics"
         ]
       }    
     ],
-  "languages": [{
+  "languages": [
+    {
     "language": "Spanish",
-    "fluency": "Native speaker"
-  }, {
+    "fluency": "Native speaker"}, {
     "language": "English",
-    "fluency": "C1-Advanced"
-  }],
+    "fluency": "C1-Advanced"}
+  ],
   "projects": [
     {
-    "name": "mars.codes",
-    "isActive": true,
-    "description": "Historia interactiva con retos de programación para viajar a Marte",
+    "name": "DoggyDeep",
+    "isActive": false,
+    "description": "Primer proyecto full stack, para aplicar mis primeras habilidades como desarrollador",
     "highlights": [
-      "Elige tu propia aventura",
-      "En desarrollo"
+      "Busqueda de diferentes tipos de perros",
+      "Sin uso",
+      "React & Node"
     ],
-    "url": "https://mars.codes"
+    "url": "https://doggydeep.netlify.app/"
     }, {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "name": " Wizarding Wares",
+      "isActive": false,
+      "description": "Proyecto full stack desarrollado junto a un equipo. E-commerce acerca de articulos de harry potter.",
       "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
+        "Uso de pasarela de pagos ML",
+        "E-commerce",
+        "Vite & Node & Tailwind"
       ],
-      "url": "https://adventjs.dev"
+      "url": "https://wizarding-wares-red.vercel.app/"
     }
   ]
 }

@@ -1,20 +1,20 @@
 ---
-import Layout from "@/layouts/Layout.astro"
+import Layout from "@/layouts/Layout.astro";
 
-import About from "@/components/sections/es/About.astro"
-import Education from "@/components/sections/es/Education.astro"
-import Experience from "@/components/sections/es/Experience.astro"
-import Hero from "@/components/sections/es/Hero.astro"
-import Projects from "@/components/sections/es/Projects.astro"
-import Skills from "@/components/sections/es/Skills.astro"
-import KeyboardManager from "@/components/KeyboardManager.astro"
-import Language from "@/components/sections/es/Language.astro"
+import About from "@/components/sections/en/AboutEn.astro";
+import Education from "@/components/sections/en/EducationEn.astro";
+import Experience from "@/components/sections/en/ExperienceEn.astro";
+import Hero from "@/components/sections/en/HeroEn.astro";
+import Projects from "@/components/sections/en/ProjectsEn.astro";
+import Skills from "@/components/sections/en/SkillsEn.astro";
+import KeyboardManager from "@/components/KeyboardManager.astro";
+import Language from "@/components/sections/en/LanguageEn.astro";
 
-import { basics } from "@cv"
-const { name, label } = basics
+import { basics } from "@cv";
+const { name, label } = basics;
 ---
 
-<Layout title={`Portafolio de ${name} - ${label}`}>
+<Layout title={`Portfolio of ${name} - ${label}`}>
   <main>
     <Hero />
     <About />
@@ -22,7 +22,7 @@ const { name, label } = basics
     <Education />
     <Projects />
     <Skills />
-    <Language/>
+    <Language />
     <div class="refs">
       <section>
         <img src="/spain-flag.png" alt="usa-flag" class="flag"/>
@@ -49,7 +49,7 @@ const { name, label } = basics
     top: 2rem;
     right: 8rem;
     display: flex;
-    gap: 8px;
+    gap:8px
   }
   .refs a {
     color: black;

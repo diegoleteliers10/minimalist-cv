@@ -1,5 +1,5 @@
 ---
-import Section from "../Section.astro"
+import Section from "../../Section.astro"
 
 import { work } from "@cv"
 ---
@@ -20,20 +20,18 @@ import { work } from "@cv"
                 <header>
                   <div>
                     <h3>{name}</h3>
-                    <h4>{position}</h4>
+                    <h4>{position.es}</h4>
                   </div>
 
                   <time>{years}</time>
                 </header>
 
                 <footer>
-                  <p>{summary}</p>
+                  <p>{summary.es}</p>
                 </footer>
 
-                <div class="highlight">
-                  {highlights.map((highlight) => {
-                    return <span>{highlight}</span>
-                  })}
+                <div class="highlight"> 
+                  <span>{highlights.es}</span>
                 </div>
               </article>
             </li>

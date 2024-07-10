@@ -1,16 +1,15 @@
 ---
-import Section from "../Section.astro";
+import Section from "../../Section.astro"
 
-import { languages } from "@cv";
+import { skills, languages } from "@cv"
 ---
 
-<Section title="Language">
+<Section title="Skills">
   <ul>
     {
-      languages.map(({ language, fluency }) => (
+      skills.map(({ name }) => (
         <li>
-          <h4>{language}</h4>
-          <span>{fluency}</span>
+          <span>{name}</span>
         </li>
       ))
     }

@@ -1,10 +1,10 @@
 ---
-import Section from "../Section.astro";
+import Section from "../../Section.astro";
 
-import { education } from "@cv";
+import { education } from "../../../../cv.json"
 ---
 
-<Section title="Educación">
+<Section title="Education">
   <ul>
     {
       education.map(
@@ -27,7 +27,7 @@ import { education } from "@cv";
                 </header>
 
                 <footer>
-                  <p>{summary}</p>
+                  <p>{summary.en}</p>
                 </footer>
               </article>
             </li>

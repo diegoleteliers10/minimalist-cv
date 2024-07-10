@@ -42,7 +42,7 @@ const SOCIAL_ICONS: Record<string, string> = {
 
 const profilesInfo = profiles.map(({ network, url }) => {
   const icon = SOCIAL_ICONS[network]
-  const firstLetter = network[0].toUpperCase()
+  const firstLetter = network[5].toUpperCase()
 
   return {
     id: network,
@@ -62,7 +62,8 @@ const profilesInfo = profiles.map(({ network, url }) => {
 <ninja-keys
   data-info={JSON.stringify(profilesInfo)}
   placeholder="Buscar comando"
-  hideBreadcrumbs></ninja-keys>
+  hideBreadcrumbs>
+</ninja-keys>
 
 <script>
   import "ninja-keys"
